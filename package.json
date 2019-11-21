@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "@types/node": "^12.6.9"
+  },
+  "dependencies": {
+    "budgie": "^0.3.27"
   }
 }
