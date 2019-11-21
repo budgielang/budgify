@@ -5,6 +5,6 @@ export type BudgifySettings = {
   text: string;
 }
 
-export default async ({ language, text }: BudgifySettings): Promise<string[]> => {
+export default async (language: string, text: string): Promise<string[]> => {
   return new Budgie(language).convert(text.split(/\r\n|\r|\n/));
 }
