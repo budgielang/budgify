@@ -1,0 +1,15 @@
+{
+  "name": "budgify",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A unified syntax that compiles into your favorite OOP languages.",
+  "author": "JoshuaKGoldberg",
+  "license": "MIT",
+  "repository": "budgielang/budgie",
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.9"
+  }
+}

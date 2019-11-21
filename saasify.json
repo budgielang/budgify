@@ -1,0 +1,8 @@
+{
+  "name": "budgify",
+  "services": [
+    {
+      "src": "index.ts"
+    }
+  ]
+}
